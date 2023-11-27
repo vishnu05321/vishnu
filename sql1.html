@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sql Tutorial</title>
+</head>
+<body>
+    <h1><center>SQL Tutorial</center></h1>
+
+
+<link rel="stylesheet" href="sql.css">
+
+
+    
+    <ul class="toc chapters">
+        <b>
+       
+        <li><a href="" class="active">SQL - Home</a></li>
+        <li><a href="">SQL - Introduction</a></li>
+        <li><a href="">SQL - Syntax</a></li>
+        <li><a href="">SQL -  Selectors</a></li>
+        <li><a href="">SQL -  Inclusion</a></li>
+        <li><a href="">SQL - Colors </a></li>
+        <li><a href="">SQL -  Backgrounds</a></li>
+        <li><a href="">SQL - Fonts </a></li>
+        <li><a href="">SQL - Text </a></li>
+        <li><a href="">SQL - Images</a></li>
+        <li><a href="">SQL - Links</a></li>
+        <li><a href="">SQL - Lists</a></li>
+        <li><a href="">SQL - Cursor</a></li>
+        <li><a href="">SQL - Scrollbars</a></li>
+      
+        </b>
+    </ul>
+
+
+
+
+
+
+
+
+    <h2 id="Introduction">What is SQL ?</h2>
+    <ul>
+        <li>
+            <p>
+                Structured query language (SQL) is a programming language for storing and processing information in a relational database.
+                </p></li>
+             <li><p>    A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.
+                </p></li>
+               <li><p>   You can use SQL statements to store, update, remove, search, and retrieve information from the database. 
+                 You can also use SQL to maintain and optimize database performance.</p></li>
+
+                 <h4>
+        
+<p><b>SQL is used to perform tasks such as :</b></p></h4>
+<li><p><b>Creating, updating, and deleting databases and tables
+</b></p></li>
+<li><p><b>
+Inserting, updating, and deleting data from tables
+</b></p></li>
+<li><p><b>
+    Querying data from tables
+</b></p></li>
+<li><p><b>
+    Creating and managing views
+</b></p></li>
+<li><p><b>
+    Controlling user access to databases and tables
+</b></p></li>
+    </ul>
+    <h2 id="important">Why is SQL important ?</h2>
+    <ul>
+        <li>
+            <p>Structured query language (SQL) is a popular query language that is frequently used in all types of applications. Data analysts and developers learn and use SQL because it integrates well with different programming languages.</p>
+        </li>
+        <li>
+            <p>It is the standard language for querying and managing relational databases.</p>
+        </li>
+        <li>
+            <p>
+                It is a powerful and expressive language.
+            </p>
+        </li>
+        <li>
+            <p>
+                It is relatively easy to learn.
+            </p>
+        </li>
+        <li>
+            <p>
+                It is in high demand. 
+            </p>
+        </li>
+    
+
+   <h3 id="history">History of SQL :</h3>
+
+   <li><p>
+    SQL was first developed at IBM in the 1970s by a team led by Donald Chamberlin and Raymond Boyce. The team was working on a project called System R, which was a new relational database management system (RDBMS). SQL was designed to be a language that could be used to query and manage the data in the database.
+   </p></li>
+
+<li><p>SQL was invented in the 1970s based on the relational data model. It was initially known as the structured English query language (SEQUEL).</p></li>
+
+<li>
+    <p>The name was later changed to SQL to avoid a trademark conflict with another company.</p>
+</li>
+
+<li>
+    <p>
+        The term was later shortened to SQL. Oracle, formerly known as Relational Software, became the first vendor to offer a commercial SQL relational database management system.
+    </p>
+</li>
+
+<li>
+    <p>
+        SQL quickly became the standard language for querying and managing relational databases. It is now used by all major RDBMS vendors, including Oracle, MySQL, and PostgreSQL.
+    </p>
+</li>
+
+<li>
+    <p>
+        SQL has evolved over the years, and new features have been added to the language. However, the core syntax of SQL has remained largely the same. This makes it easy for users to learn and use SQL, even if they are familiar with an older version of the language.
+    </p>
+</li>
+
+</ul>
+   
+    
+<h2 id="components">What are the components of a SQL system ?</h2>
+
+<ul>
+    <p><b>A SQL system is composed of the following components :</b></p>
+
+<li>
+    <p>
+        <b>Database :</b> The database is the collection of data that is managed by the SQL system. It is typically stored on disk and organized into tables.
+    </p>
+</li>
+<li>
+    <p>
+        <b>SQL engine :</b>The SQL engine is the software component that interprets and executes SQL statements. It is responsible for retrieving and manipulating data in the database.
+    </p>
+</li>
+<li>
+    <p>
+        <b>Database management system (DBMS) :</b> The DBMS is the overall software system that manages the database and provides an interface to the SQL engine. It is responsible for tasks such as user authentication, security, and performance optimization.
+    </p>
+</li>
+
+<li>
+    <p>
+        <b>SQL client :</b>The SQL client is a software application that allows users to interact with the SQL engine. It provides a user interface for writing and executing SQL statements, as well as viewing and managing the results of queries.
+    </p>
+</li>
+
+<p><b>Some popular SQL systems include :</b></p>
+
+<p><li>MySQL</li></p>
+<p><li>PostgreSQL</li></p>
+<p><li>Oracle Database</li></p>
+<p><li>Microsoft SQL Server</li></p>
+
+<p>
+
+    These systems all have the same basic components, but they may differ in terms of features, performance, and scalability.</p>
+
+</ul>
+
+<h2 id="working">How does SQL work ?</h2>
+
+<ul>
+    <p>Structured query language (SQL) implementation involves a server machine that processes the database queries and returns the results. The SQL process goes through several software components, including the following. </p>
+   <li><p><b>Parser</b></p></li>
+    <p>The parser starts by tokenizing, or replacing, some of the words in the SQL statement with special symbols. It then checks the statement for the following:</p>
+
+    <p>Correctness :</p>
+    <p>The parser verifies that the SQL statement conforms to SQL semantics, or rules, that ensure the correctness of the query statement. For example, the parser checks if the SQL command ends with a semi-colon. If the semi-colon is missing, the parser returns an error.</p>
+    <p>Authorization :</p>
+    <p>
+        The parser also validates that the user running the query has the necessary authorization to manipulate the respective data. For example, only admin users might have the right to delete data. 
+    </p>
+    <p>
+       <li> <b>Relational engine</b></li>
+    </p>
+    <p>The relational engine, or query processor, creates a plan for retrieving, writing, or updating the corresponding data in the most effective manner. For example, it checks for similar queries, reuses previous data manipulation methods, or creates a new one. It writes the plan in an intermediate-level representation of the SQL statement called byte code. Relational databases use byte code to efficiently perform database searches and modifications. </p>
+
+  <li>  <p><b>Storage engine</b></p></li>
+    <p>The storage engine, or database engine, is the software component that processes the byte code and runs the intended SQL statement. It reads and stores the data in the database files on physical disk storage. Upon completion, the storage engine returns the result to the requesting application.</p>
+</ul>
+</body>
+</html>
